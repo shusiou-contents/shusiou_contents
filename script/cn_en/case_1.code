@@ -10,8 +10,8 @@
 		{text:'good job', lang:'en-US', active:true},
 		],
 	non_match:[
-		{text:'Incorrect, please try again.', lang:'en-US', active:false},
-		{action:'play video', active:true}, 
+		{text:['Incorrect, please try again.'], lang:'en-US', active:false},
+		{action:'play_section', active:true}, 
 		{text:'Please try again.', lang:'en-US', active:false}					
 		],
 	done:{text:'Lets continue', lang:'en-US', active:true}
