@@ -1,5 +1,5 @@
 {
-	lang:{mother:'en-US', learning:'cn-ZH'},
+	lang:{code:"en-cn", mother:'en-US', learning:'cn-ZH'},
 	pro:[
 		{text:'The next paragraph is saying something[s]Listen', lang:'en-US', active:true},
 		{action:'play video', active:true}, 
