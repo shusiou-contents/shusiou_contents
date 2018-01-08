@@ -1,8 +1,8 @@
 {
 	lang:{code:"en-cn", mother:'en-US', learning:'cn-ZH'},
 	pro:[
-		{text:['The next paragraph is talking about', 'Listen'], lang:'en-US', active:true},
-		{action:'play video', active:true}, 
+		{text:['The next paragraph is talking about', 'Listen'], lang:'mother', active:true},
+		{action:'play_section', active:true}, 
 		{text:'Please repeat', lang:'en-US', active:false}
 		],
 	ans:{text:'你好', lang:'cn-ZH', active:true},					
