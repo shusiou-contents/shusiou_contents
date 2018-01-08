@@ -3,7 +3,7 @@
 	pro:[
 		{text:['The next paragraph is talking about', 'Listen'], lang:'mother', active:true},
 		{action:'play_section', active:true}, 
-		{text:'Please repeat', lang:'en-US', active:false}
+		{text:['Please repeat'], lang:'en-US', active:false}
 		],
 	ans:{text:'你好', lang:'cn-ZH', active:true},					
 	match:[
