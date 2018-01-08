@@ -1,18 +1,18 @@
 {
 	lang:{code:"en-cn", mother:'en-US', learning:'cn-ZH'},
 	pro:[
-		{text:['The next paragraph is talking about', 'Listen'], lang:'mother', active:true},
-		{action:'play_section', active:true}, 
-		{text:['Please repeat'], lang:'en-US', active:false}
+		{text:['The next paragraph is talking about', 'Listen']},
+		{action:'play_section'}, 
+		{text:['Please repeat']}
 		],
-	ans:{text:'你好', lang:'cn-ZH', active:true},					
+	ans:{text:'你好'},					
 	match:[
-		{text:'good job', lang:'en-US', active:true},
+		{text:'good job'},
 		],
 	non_match:[
-		{text:['Incorrect, please try again.'], lang:'en-US', active:false},
-		{action:'play_section', active:true}, 
-		{text:'Please try again.', lang:'en-US', active:false}					
+		{text:['Incorrect, please try again.']},
+		{action:'play_section'}, 
+		{text:'Please try again.'}					
 		],
-	done:{text:'Lets continue', lang:'en-US', active:true}
+	done:{text:'Lets continue'}
 }
