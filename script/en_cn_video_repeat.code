@@ -1,5 +1,5 @@
 {
-	"lang":{"code":"en-cn", "mother":"en-US", learning:"cn-ZH"},
+	"lang":{"code":"en-cn", "mother":"en-US", "learning":"cn-ZH"},
 	"desc":'play video and repeat',
 	"pro":[
 		{"text":['The next paragraph is talking about', 'Listen']},
