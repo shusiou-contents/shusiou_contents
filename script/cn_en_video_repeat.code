@@ -1,4 +1,9 @@
 {
 	"lang":{"code":"cn-en", "mother":"cn-ZH", "learning":"en-US"},
-	"desc":"play video and repeat"
+	"desc":"play video and repeat",
+	"pro":[
+		{"text":["以下片段是关于...", "请听"]},
+		{"action":"play_section"}, 
+		{"text":["请跟读"]}
+	]
 }
