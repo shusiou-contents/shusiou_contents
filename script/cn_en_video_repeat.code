@@ -8,7 +8,7 @@
 		],
 	"ans":{"text": "put your answer"},					
 	"match":[
-		{"text":'很好'},
+		{"text":"很好"},
 		],
 	"non_match":[
 		{"text":["不对", "请重读."]},
