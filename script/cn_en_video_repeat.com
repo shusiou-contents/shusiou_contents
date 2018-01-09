@@ -1,19 +1,19 @@
 {
-	lang:{code:"en-cn", mother:'en-US', learning:'cn-ZH'},
+	lang:{code:"cn-en", mother:'cn-ZH', learning:'en-US'},
 	desc:'play video and repeat',
 	pro:[
-		{text:['The next paragraph is talking about', 'Listen']},
+		{text:['以下片段是关于...', '请听']},
 		{action:'play_section'}, 
-		{text:['Please repeat']}
+		{text:['请跟读']}
 		],
-	ans:{text:'你好 '},					
+	ans:{text: ‘put your answer'},					
 	match:[
-		{text:'good job'},
+		{text:'很好'},
 		],
 	non_match:[
-		{text:['Incorrect, please try again.']},
+		{text:['不对, 请重读.']},
 		{action:'play_section'}, 
-		{text:'Please try again.'}					
+		{text:'请再试.'}					
 		],
-	done:{text:'Lets continue'}
+	done:{text:'继续'}
 }
