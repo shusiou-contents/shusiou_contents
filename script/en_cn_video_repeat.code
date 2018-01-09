@@ -1,6 +1,6 @@
 {
 	lang:{code:"en-cn", mother:'en-US', learning:'cn-ZH'},
-	desc:'play vide and repeat',
+	desc:'play video and repeat',
 	pro:[
 		{text:['The next paragraph is talking about', 'Listen']},
 		{action:'play_section'}, 
