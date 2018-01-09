@@ -11,7 +11,7 @@
 		{"text":"good job"},
 		],
 	"non_match":[
-		{"text":["Incorrect, please try again."]},
+		{"text":["Incorrect", "please try again."]},
 		{"action":"play_section"}, 
 		{"text":"Please try again."}					
 		],
