@@ -2,18 +2,18 @@
 	"lang":{"code":"en-cn", "mother":"en-US", "learning":"cn-ZH"},
 	"desc":"play video and repeat",
 	"pro":[
-			{"text":["The next paragraph is talking about", "Listen"]},
-			{"action":"play_section"}, 
-			{"text":["Please repeat"]}
+			{"voice_text":["The next paragraph is talking about", "Listen"]},
+			{"action":true}, 
+			{"voice_text":["Please repeat"]}
 		],
-	"ans":{"text":"你好"},					
+	"ans":{"user_text":"你好"},					
 	"match":[
-			{"text":"good job"}
+			{"voice_text":"good job"}
 		],
 	"non_match":[
-			{"text":["Incorrect", "please try again."]},
-			{"action":"play_section"}, 
-			{"text":"Please try again."}					
+			{"voice_text":["Incorrect", "please try again."]},
+			{"action":true}, 
+			{"voice_text":"Please try again."}					
 		],
-	"done":{"text":"Lets continue"}
+	"done":{"voice_text":"Lets continue"}
 }
