@@ -6,7 +6,7 @@
 			{"action":true}, 
 			{"voice_text":["请跟读"]}
 		],
-	"ans":{"text":"put your answer"},					
+	"ans":{"user_text":"put your answer"},					
 	"match":[
 			{"voice_text":"很好"}
 		],
