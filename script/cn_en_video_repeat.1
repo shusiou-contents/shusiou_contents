@@ -1,19 +1,9 @@
 {
 	"lang":{"code":"cn-en", "mother":"cn-ZH", "learning":"en-US"},
 	"desc":"play video and repeat",
-	"pro":[
-			{"voice_text":["以下片段是关于...", "请听"]},
-			{"action":true}, 
-			{"voice_text":["请跟读"]}
-		],
-	"ans":{"user_text":"put your answer"},					
-	"match":[
-			{"voice_text":"很好"}
-		],
-	"non_match":[
-			{"voice_text":["不对", "请重读."]},
-			{"action":true}, 
-			{"voice_text":"请再试."}					
-		],
-	"done":{"voice_text":"继续"}
+	"prompt":["以下片段是关于$description|请听","$section","请跟读"],
+	"answer":{"$answer"},					
+	"match":["很好"],
+	"non_match":["不对|请重读."],"$section","请再试."],
+	"done":["继续下一段"]
 }
