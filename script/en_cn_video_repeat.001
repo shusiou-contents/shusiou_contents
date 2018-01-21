@@ -1,6 +1,6 @@
 {
 	"type":"listen_repeat",
-	"lang":{"code":"en_cn", "mother":"cn-ZH", "learning":"en-US"},
+	"lang":{"code":"en-cn", "mother":"cn-ZH", "learning":"en-US"},
 	"description":{"en":"liste and repeat model", "cn":"跟读模型"},
 	"prompt":["(以下片段是关于)$description|(请听)","$section","(请跟读)"],
 	"answer":"$answer",					
